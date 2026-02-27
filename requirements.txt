@@ -1,10 +1,6 @@
-First need to install python and install libraries
-
-Libraries:
-
 streamlit
-numpy
 pandas
+numpy
 matplotlib
+plotly
 scikit-learn
-reportlab
