@@ -171,7 +171,7 @@ emission_factor = st.sidebar.number_input(
 # =====================================================
 
 st.markdown("---")
-st.markdown("## 🔮 What-If Scenario Simulation")
+st.markdown("##  What-If Scenario Simulation")
 
 scenario = st.selectbox(
     "Select Lighting Strategy",
@@ -594,7 +594,7 @@ st.markdown("""
     box-shadow: 0 10px 25px rgba(0,0,0,0.4);
 ">
 <h3 style="color:#00C49A; margin-bottom:0;">
-🧠 AI Optimization Recommendations
+ AI Optimization Recommendations
 </h3>
 </div>
 """, unsafe_allow_html=True)
@@ -614,7 +614,7 @@ for rec in recommendations:
 # ===============================
 
 st.markdown("---")
-st.markdown("## 🔮 AI Predictive Impact Analysis")
+st.markdown("##  AI Predictive Impact Analysis")
 
 # Simulate 10% occupancy increase
 energy_up, cost_up, carbon_up = simulate_change(occupancy_factor=1.10)
@@ -653,7 +653,7 @@ elif risk_score < 70:
 else:
     risk_level = "High"
 colP1, colP2 = st.columns(2)
-st.markdown("### 🛡 AI Risk Assessment")
+st.markdown("### AI Risk Assessment")
 
 colR1, colR2 = st.columns(2)
 
@@ -687,7 +687,7 @@ st.markdown("""
     margin-top: 20px;
     margin-bottom: 20px;
 ">
-<h4 style="color:#00C49A;">🤖 AI Strategic Recommendation</h4>
+<h4 style="color:#00C49A;"> AI Strategic Recommendation</h4>
 """, unsafe_allow_html=True)
 
 st.markdown(f"""
